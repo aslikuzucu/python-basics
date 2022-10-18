@@ -1,0 +1,11 @@
+weight = float(input("weight: "))
+option = input("L(bs) or (K)g: ")
+
+if option.upper() == "L":
+    weight = weight *0.45
+    print("your weight with Lbs: ", weight)
+elif option.upper() == "K":
+    weight = weight / 0.45
+    print("your weight with kgs: ", weight)
+else:
+    print("you write wrong")
